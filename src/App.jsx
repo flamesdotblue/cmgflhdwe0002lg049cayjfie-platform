@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import HeroSpline from './components/HeroSpline';
+import HeroCosmicCover from './components/HeroCosmicCover';
 import HeroNebula from './components/HeroNebula';
-import HeroCallout from './components/HeroCallout';
+import HeroLaunchCallout from './components/HeroLaunchCallout';
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white font-inter">
       <Navbar />
       <main className="flex flex-col">
-        <HeroSpline />
+        <HeroCosmicCover />
         <HeroNebula />
-        <HeroCallout />
+        <HeroLaunchCallout />
       </main>
     </div>
   );
